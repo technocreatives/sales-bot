@@ -1,0 +1,20 @@
+{
+  "name": "sales-bot",
+  "version": "0.0.1",
+  "description": "Tools for The Techno Creatives sales and project pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oskar Hagberg <oskar@technocreatives.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "express": "^4.13.4",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^5.2.1",
+    "nconf": "^0.8.4",
+    "pipedrive": "^2.1.2",
+    "request": "^2.72.0"
+  }
+}

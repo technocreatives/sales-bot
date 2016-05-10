@@ -1,0 +1,11 @@
+{
+  "pipedrive": {
+    "token": "your pipedrive API token"
+  },
+  "drive": {
+    "client_secret_path": "google_client_secret.json"
+  },
+  "ten": {
+    "token": "your 10 000ft API token"
+  }
+}
