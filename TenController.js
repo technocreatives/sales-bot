@@ -20,7 +20,7 @@ module.exports.Client = function(token) {
     var options = {
       uri: 'projects',
       method: 'GET',
-      qs: {project_code: q}
+      qs: {project_code: q, with_archived: true}
     };
 
     self.req(options, function(error, response, data) {
